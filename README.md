@@ -2,16 +2,16 @@
 
 ## Tópicos cobertos no projeto.
 
-GET - Buscar uma informação no servidor
-POST - Inserir uma informação no servidor
-PUT - Alterar uma informação no servidor
-PATCH - Alterar uma informação específica
-DELETE - Deletar uma informação no servidor
+- GET - Buscar uma informação no servidor
+- POST - Inserir uma informação no servidor
+- PUT - Alterar uma informação no servidor
+- PATCH - Alterar uma informação específica
+- DELETE - Deletar uma informação no servidor
 
-Tipos de parâmetros:
-Route Params => Identificar um recurso para buscar/editar/deletar informação.
-Query Params => Paginação/Filtro (?page=1&order=desc)
-Body Params => Os objetos para inserção/ alteração de recursos (JSON)
+### Tipos de parâmetros:
+- Route Params => Identificar um recurso para buscar/editar/deletar informação.
+- Query Params => Paginação/Filtro (?page=1&order=desc)
+- Body Params => Os objetos para inserção/ alteração de recursos (JSON)
 
 
 ## FinApi - Financeia
@@ -38,4 +38,5 @@ Body Params => Os objetos para inserção/ alteração de recursos (JSON)
     [X] Não deve ser possível excluir uma conta não existente
 
 ## Ferramenta Insomnia utilizada para testar as rotas.
+![insomnia-print](https://user-images.githubusercontent.com/72300791/224096049-e70d1b3d-cd53-400e-b659-1354bcb0c564.png)
 
